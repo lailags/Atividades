@@ -1,0 +1,200 @@
+/* Estilo para o cabeçalho */
+header {
+    background-color: #1b1919e2;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para a barra de busca */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+button#search-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease; /* Adicionar uma transição suave na cor de */
+}
+button#search-button:hover {
+    background-color: #555; /* Alterar a cor de fundo quando o cursor passa sobre o botão */
+}
+
+button#search-button:active {
+    background-color: #222; /* Alterar a cor de fundo quando clicar no botão  */
+}
+/* Estilo para a lista de receitas */
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Estilo para os cards de receitas */
+.recipe-card {
+    flex-basis: calc(33.33% - 20px);
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o texto do rodapé */
+footer p {
+    margin: 0;
+}
+
+/* teste das paginas das receitas */
+/* Estilos gerais */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #422424;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para ingredientes */
+.ingredients {
+    margin-top: 20px;
+}
+
+.ingredients h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.ingredients li {
+    margin: 5px 0;
+}
+
+/* Estilos para instruções */
+.instructions {
+    margin-top: 20px;
+}
+
+.instructions h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin: 5px 0;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #422424;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para links */
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Estilo para a barra de pesquisa à direita */
+.search-bar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* para Alinhar à direita */
+}
+
+/* Estilo para o link para voltar à página inicial à direita */
+.back-to-home {
+    text-align: right; /*  para Alinhar o texto à direita */
+    margin-top: 20px;
+}
+
+.back-to-home a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home a:hover {
+    background-color: #555;
+}
+
+

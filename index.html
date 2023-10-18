@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Receitas/css/estilo.css">
+    <title>Receitas Culinárias</title>
+</head>
+<body>
+    <header>
+        <h1>Receitas Culinárias</h1>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar receitas...">
+            <button id="search-button">Buscar</button>
+        </div>
+    </header>
+    <main class="recipe-list">
+        <div class="recipe-card">
+            <a href="receita1.html">
+                <img src="/Receitas/img/pudim.jpg" alt="Receita 1" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                
+                <h2>Pudim de leite sem furinhos</h2>
+            </a>
+        </div>
+        <div class="recipe-card">
+            <a href="receita2.html">
+                <img src="/Receitas/img/escondidinho.png" alt="Receita 2" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <h2>Escondidinho de carne </h2>
+            </a>
+        </div>
+        <div class="recipe-card">
+            <a href="receita3.html">
+                <img src="/Receitas/img/espaguete.png" alt="Receita 3" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <h2>Espaguete à Carbonara</h2>
+            </a>
+        </div>
+    </main>
+    <script src="/Receitas/js/menu.js">
+        
+    </script>
+    <footer>
+        <p>&copy; 2023 Receitas Culinárias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
